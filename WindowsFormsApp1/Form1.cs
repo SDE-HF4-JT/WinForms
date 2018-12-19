@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Data.SqlClient;
+using System.Net;
+using System.Net.Mail;
 
 namespace WindowsFormsApp1
 {
@@ -44,10 +46,14 @@ namespace WindowsFormsApp1
         private string messageString; //Temp
         private string MessageGetSet { get => messageInput.Text; set => messageString = value; } // -||-
 
-
         //private Int32 timeToLiveInt = (int)numericUpDown1.Value; //Org
         private Int32 timeToLiveInt; //Temp
         private Int32 TimeToLiveIntGetSet { get => (int)numericUpDown1.Value; set => timeToLiveInt = value; } // -||-
+
+        //SMTP
+        private NetworkCredential login;
+        private SmtpClient client;
+        private MailMessage msg;
 
         //--- Other ---//
         public LoginWindow()
@@ -330,7 +336,27 @@ namespace WindowsFormsApp1
                 ///OnSuccess:
                 if (mailInput.Text.Length != 0 && mailPassInput.Text.Length != 0 && portInput.Text.Length != 0 && SMTPInput.Text.Length != 0)
                 {
-                    //Send mail!
+                    //Send mail! - Added Reference: System.net
+                    login = new NetworkCredential(mailInput.Text, mailPassInput.Text);
+                    client = new SmtpClient(SMTPInput.Text);
+                    client.Port = Convert.ToInt32(portInput.Text);
+                    client.EnableSsl = SSLCheckBox.Checked;
+                    client.Credentials = login;
+                    msg = new MailMessage { From = new MailAddress(mailInput.Text + SMTPInput.Text.Replace("smtp.", "@"), "Patharoth", Encoding.UTF8) };
+                    msg.To.Add(new MailAddress(recipientInput.Text));
+                    if (!string.IsNullOrEmpty(carbonCopyInput.Text))
+                        msg.To.Add(new MailAddress(carbonCopyInput.Text));
+
+                    msg.Subject = titleInput.Text;
+                    msg.Body = messageInput.Text;
+                    msg.BodyEncoding = Encoding.UTF8;
+                    msg.IsBodyHtml = true;
+                    msg.Priority = MailPriority.Normal;
+                    msg.DeliveryNotificationOptions = DeliveryNotificationOptions.OnFailure;
+                    client.SendCompleted += new SendCompletedEventHandler(SendCompletedCallback);
+
+                    string userstate = "Sending...";
+                    client.SendAsync(msg, userstate);
                 }
             }
             catch(Exception mailError)
@@ -488,6 +514,17 @@ namespace WindowsFormsApp1
             DialogResult result;
 
             result = MessageBox.Show(errorMessage, caption, buttons, MessageBoxIcon.Information);
+        }
+
+        //Error and Success messages for SMTP process
+        private static void SendCompletedCallback(object sender, AsyncCompletedEventArgs e)
+        {
+            if (e.Cancelled)
+                MessageBox.Show(string.Format("{0} send canceled.", e.UserState), "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (e.Error != null)
+                MessageBox.Show(string.Format("{0} {1}", e.UserState, e.Error), "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+                MessageBox.Show("Your message has been successfully sent.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

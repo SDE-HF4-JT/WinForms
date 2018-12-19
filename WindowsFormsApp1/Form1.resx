@@ -228,6 +228,24 @@
   <data name="tabInbox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="accountNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="accountNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="accountNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="accountNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="accountNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="accountNameLabel.Text" xml:space="preserve">
+    <value>_#AccountName</value>
+  </data>
   <data name="&gt;&gt;accountNameLabel.Name" xml:space="preserve">
     <value>accountNameLabel</value>
   </data>
@@ -239,6 +257,24 @@
   </data>
   <data name="&gt;&gt;accountNameLabel.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="messageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="messageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="messageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="messageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="messageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="messageLabel.Text" xml:space="preserve">
+    <value>Message</value>
   </data>
   <data name="&gt;&gt;messageLabel.Name" xml:space="preserve">
     <value>messageLabel</value>
@@ -252,6 +288,18 @@
   <data name="&gt;&gt;messageLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="MessageTextbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="MessageTextbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 615</value>
+  </data>
+  <data name="MessageTextbox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="MessageTextbox.Text" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;MessageTextbox.Name" xml:space="preserve">
     <value>MessageTextbox</value>
   </data>
@@ -263,6 +311,24 @@
   </data>
   <data name="&gt;&gt;MessageTextbox.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="InboxLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="InboxLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InboxLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 3</value>
+  </data>
+  <data name="InboxLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="InboxLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="InboxLabel.Text" xml:space="preserve">
+    <value>Inbox</value>
   </data>
   <data name="&gt;&gt;InboxLabel.Name" xml:space="preserve">
     <value>InboxLabel</value>
@@ -276,6 +342,15 @@
   <data name="&gt;&gt;InboxLabel.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="InboxList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 21</value>
+  </data>
+  <data name="InboxList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 615</value>
+  </data>
+  <data name="InboxList.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
   <data name="&gt;&gt;InboxList.Name" xml:space="preserve">
     <value>InboxList</value>
   </data>
@@ -288,6 +363,21 @@
   <data name="&gt;&gt;InboxList.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="deleteMessageButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deleteMessageButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 642</value>
+  </data>
+  <data name="deleteMessageButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="deleteMessageButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="deleteMessageButton.Text" xml:space="preserve">
+    <value>Delete Message</value>
+  </data>
   <data name="&gt;&gt;deleteMessageButton.Name" xml:space="preserve">
     <value>deleteMessageButton</value>
   </data>
@@ -299,6 +389,21 @@
   </data>
   <data name="&gt;&gt;deleteMessageButton.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="logOutButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="logOutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 642</value>
+  </data>
+  <data name="logOutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="logOutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="logOutButton.Text" xml:space="preserve">
+    <value>Log out</value>
   </data>
   <data name="&gt;&gt;logOutButton.Name" xml:space="preserve">
     <value>logOutButton</value>
@@ -344,6 +449,9 @@
   </metadata>
   <data name="mailPassInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>436, 7</value>
+  </data>
+  <data name="mailPassInput.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
   </data>
   <data name="mailPassInput.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 20</value>
@@ -974,195 +1082,6 @@
   </data>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="accountNameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="accountNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="accountNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="accountNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 13</value>
-  </data>
-  <data name="accountNameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="accountNameLabel.Text" xml:space="preserve">
-    <value>_#AccountName</value>
-  </data>
-  <data name="&gt;&gt;accountNameLabel.Name" xml:space="preserve">
-    <value>accountNameLabel</value>
-  </data>
-  <data name="&gt;&gt;accountNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;accountNameLabel.Parent" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;accountNameLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="messageLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="messageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="messageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 3</value>
-  </data>
-  <data name="messageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
-  </data>
-  <data name="messageLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="messageLabel.Text" xml:space="preserve">
-    <value>Message</value>
-  </data>
-  <data name="&gt;&gt;messageLabel.Name" xml:space="preserve">
-    <value>messageLabel</value>
-  </data>
-  <data name="&gt;&gt;messageLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;messageLabel.Parent" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;messageLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="MessageTextbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 21</value>
-  </data>
-  <data name="MessageTextbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 615</value>
-  </data>
-  <data name="MessageTextbox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="MessageTextbox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;MessageTextbox.Name" xml:space="preserve">
-    <value>MessageTextbox</value>
-  </data>
-  <data name="&gt;&gt;MessageTextbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MessageTextbox.Parent" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;MessageTextbox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="InboxLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="InboxLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="InboxLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 3</value>
-  </data>
-  <data name="InboxLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
-  </data>
-  <data name="InboxLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="InboxLabel.Text" xml:space="preserve">
-    <value>Inbox</value>
-  </data>
-  <data name="&gt;&gt;InboxLabel.Name" xml:space="preserve">
-    <value>InboxLabel</value>
-  </data>
-  <data name="&gt;&gt;InboxLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InboxLabel.Parent" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;InboxLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="InboxList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 21</value>
-  </data>
-  <data name="InboxList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 615</value>
-  </data>
-  <data name="InboxList.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;InboxList.Name" xml:space="preserve">
-    <value>InboxList</value>
-  </data>
-  <data name="&gt;&gt;InboxList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InboxList.Parent" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;InboxList.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="deleteMessageButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="deleteMessageButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 642</value>
-  </data>
-  <data name="deleteMessageButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 23</value>
-  </data>
-  <data name="deleteMessageButton.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="deleteMessageButton.Text" xml:space="preserve">
-    <value>Delete Message</value>
-  </data>
-  <data name="&gt;&gt;deleteMessageButton.Name" xml:space="preserve">
-    <value>deleteMessageButton</value>
-  </data>
-  <data name="&gt;&gt;deleteMessageButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;deleteMessageButton.Parent" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;deleteMessageButton.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="logOutButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="logOutButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>586, 642</value>
-  </data>
-  <data name="logOutButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 23</value>
-  </data>
-  <data name="logOutButton.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="logOutButton.Text" xml:space="preserve">
-    <value>Log out</value>
-  </data>
-  <data name="&gt;&gt;logOutButton.Name" xml:space="preserve">
-    <value>logOutButton</value>
-  </data>
-  <data name="&gt;&gt;logOutButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;logOutButton.Parent" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;logOutButton.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
