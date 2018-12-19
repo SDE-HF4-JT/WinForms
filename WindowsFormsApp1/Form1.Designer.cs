@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginWindow));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabLogin = new System.Windows.Forms.TabPage();
+            this.PortInputBox = new System.Windows.Forms.TextBox();
+            this.PortLabel = new System.Windows.Forms.Label();
             this.logInButton = new System.Windows.Forms.Button();
             this.passInputBox = new System.Windows.Forms.TextBox();
             this.userInputBox = new System.Windows.Forms.TextBox();
@@ -53,6 +55,10 @@
             this.titleInput = new System.Windows.Forms.TextBox();
             this.carbonCopyInput = new System.Windows.Forms.TextBox();
             this.recipientInput = new System.Windows.Forms.TextBox();
+            this.SMTPLabel = new System.Windows.Forms.Label();
+            this.SMTPInputBox = new System.Windows.Forms.TextBox();
+            this.SSLCheckBox = new System.Windows.Forms.CheckBox();
+            this.SSLLabel = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabLogin.SuspendLayout();
             this.tabInbox.SuspendLayout();
@@ -73,12 +79,30 @@
             // 
             this.tabLogin.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.WindowBackground2_768x512;
             resources.ApplyResources(this.tabLogin, "tabLogin");
+            this.tabLogin.Controls.Add(this.SSLLabel);
+            this.tabLogin.Controls.Add(this.SSLCheckBox);
+            this.tabLogin.Controls.Add(this.SMTPInputBox);
+            this.tabLogin.Controls.Add(this.SMTPLabel);
+            this.tabLogin.Controls.Add(this.PortInputBox);
+            this.tabLogin.Controls.Add(this.PortLabel);
             this.tabLogin.Controls.Add(this.logInButton);
             this.tabLogin.Controls.Add(this.passInputBox);
             this.tabLogin.Controls.Add(this.userInputBox);
             this.tabLogin.Name = "tabLogin";
             this.tabLogin.UseVisualStyleBackColor = true;
             this.tabLogin.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // PortInputBox
+            // 
+            resources.ApplyResources(this.PortInputBox, "PortInputBox");
+            this.PortInputBox.Name = "PortInputBox";
+            this.PortInputBox.TextChanged += new System.EventHandler(this.PortInputBox_TextChanged);
+            // 
+            // PortLabel
+            // 
+            resources.ApplyResources(this.PortLabel, "PortLabel");
+            this.PortLabel.Name = "PortLabel";
+            this.PortLabel.Click += new System.EventHandler(this.PortLabel_Click);
             // 
             // logInButton
             // 
@@ -236,6 +260,31 @@
             this.recipientInput.Name = "recipientInput";
             this.recipientInput.TextChanged += new System.EventHandler(this.recipientInput_TextChanged);
             // 
+            // SMTPLabel
+            // 
+            resources.ApplyResources(this.SMTPLabel, "SMTPLabel");
+            this.SMTPLabel.Name = "SMTPLabel";
+            this.SMTPLabel.Click += new System.EventHandler(this.SMTPLabel_Click);
+            // 
+            // SMTPInputBox
+            // 
+            resources.ApplyResources(this.SMTPInputBox, "SMTPInputBox");
+            this.SMTPInputBox.Name = "SMTPInputBox";
+            this.SMTPInputBox.TextChanged += new System.EventHandler(this.SMTPInputBox_TextChanged);
+            // 
+            // SSLCheckBox
+            // 
+            resources.ApplyResources(this.SSLCheckBox, "SSLCheckBox");
+            this.SSLCheckBox.Name = "SSLCheckBox";
+            this.SSLCheckBox.UseVisualStyleBackColor = true;
+            this.SSLCheckBox.CheckedChanged += new System.EventHandler(this.SSLCheckBox_CheckedChanged);
+            // 
+            // SSLLabel
+            // 
+            resources.ApplyResources(this.SSLLabel, "SSLLabel");
+            this.SSLLabel.Name = "SSLLabel";
+            this.SSLLabel.Click += new System.EventHandler(this.SSLLabel_Click);
+            // 
             // LoginWindow
             // 
             resources.ApplyResources(this, "$this");
@@ -283,6 +332,12 @@
         private System.Windows.Forms.TextBox titleInput;
         private System.Windows.Forms.TextBox carbonCopyInput;
         private System.Windows.Forms.TextBox recipientInput;
+        private System.Windows.Forms.TextBox PortInputBox;
+        private System.Windows.Forms.Label PortLabel;
+        private System.Windows.Forms.TextBox SMTPInputBox;
+        private System.Windows.Forms.Label SMTPLabel;
+        private System.Windows.Forms.CheckBox SSLCheckBox;
+        private System.Windows.Forms.Label SSLLabel;
     }
 }
 

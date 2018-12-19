@@ -49,6 +49,7 @@ namespace WindowsFormsApp1
         private Int32 timeToLiveInt; //Temp
         private Int32 TimeToLiveIntGetSet { get => (int)numericUpDown1.Value; set => timeToLiveInt = value; } // -||-
 
+        //--- Other ---//
         public LoginWindow()
         {
             InitializeComponent();
@@ -72,23 +73,51 @@ namespace WindowsFormsApp1
         }
 
         //--------------------------- FORM 1 : Login -------------------------//
-        //--------------------------- Tabs -----------------------------------//
+        //* Label *//
+        private void PortLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void SMTPLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void SSLLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //* Tabs *//
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
         }
-        //--------------------------- Input fields ---------------------------//
+
+        //* Input fields *//
         private void userInputBox_TextChanged(object sender, EventArgs e)
         {
 
         }
-
         private void passInputBox_TextChanged(object sender, EventArgs e)
         {
 
         }
+        private void PortInputBox_TextChanged(object sender, EventArgs e)
+        {
 
-        //------------------------- Buttons -------------------------//
+        }
+        private void SMTPInputBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //* CheckBox *//
+        private void SSLCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //* Buttons *//
         private void logInButton_Click(object sender, EventArgs e)
         {
             if (userInputBox.Text.Length == 0 || passInputBox.Text.Length == 0)
@@ -121,7 +150,7 @@ namespace WindowsFormsApp1
                 }
             }
         }
-        //------------------------- Buttons END ---------------------//
+        //* Buttons END *//
 
         private void SQLconnect()
         {
@@ -370,7 +399,7 @@ namespace WindowsFormsApp1
             sqlConnect.Close();
         }
 
-        //Make this work! -- Close sqlConnection upon window close/exit
+        //Make this work! -- Close sqlConnection UPON window close/exit
         private void btnClose_Click(object sender, EventArgs e)
         {
             string errorMessage = "You are now logged off";
