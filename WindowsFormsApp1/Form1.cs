@@ -259,7 +259,7 @@ namespace WindowsFormsApp1
         {
             //? - Most likely obsolete
         }
-        private void sendMessageButton_Click(object sender, EventArgs e)//Send message
+        private void sendMessageButton_Click(object sender, EventArgs e)
         {
             //Security: The DB and Tables are shared which in official settings would be a security concern- DO NOT USE COMMERCIALLY!
             //Objects: recipientInput, titleInput and messageInput -- VIA: dbo.Accounts
@@ -293,6 +293,7 @@ namespace WindowsFormsApp1
             //    "AND TimeToLive = '" + TimeToLiveIntGetSet + "' ", sqlConnect);
             try
             {
+                //SQL DB message send
                 SqlCommand sqlCmdSend = new SqlCommand("INSERT INTO dbo.MessageBank " +
                 "(FromUser, ToUser, SendDate, MessageTitle, MessageContent, TimeToLive)" +
                 "VALUES + " +
@@ -304,6 +305,37 @@ namespace WindowsFormsApp1
             catch (Exception sendError)
             {
                 string errorMessage = "Error: " + sendError;
+                string caption = "Attention";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result;
+
+                result = MessageBox.Show(errorMessage, caption, buttons, MessageBoxIcon.Error);
+            }
+        }
+        private void sendMailButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //SMTP mail send
+                ///OnEmptyField:
+                if (mailInput.Text.Length == 0 || mailPassInput.Text.Length == 0 || portInput.Text.Length == 0 || SMTPInput.Text.Length == 0)
+                {
+                    string errorMessage = "One or more textboxe(s) haven't been filled in SMTP field";
+                    string caption = "Attention";
+                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+                    DialogResult result;
+
+                    result = MessageBox.Show(errorMessage, caption, buttons, MessageBoxIcon.Error);
+                }
+                ///OnSuccess:
+                if (mailInput.Text.Length != 0 && mailPassInput.Text.Length != 0 && portInput.Text.Length != 0 && SMTPInput.Text.Length != 0)
+                {
+                    //Send mail!
+                }
+            }
+            catch(Exception mailError)
+            {
+                string errorMessage = "Error: " + mailError;
                 string caption = "Attention";
                 MessageBoxButtons buttons = MessageBoxButtons.OK;
                 DialogResult result;
@@ -329,6 +361,23 @@ namespace WindowsFormsApp1
         {
 
         }
+        //Space
+        private void mailInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void mailPassInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void portInput_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+        private void SMTPInput_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
 
         //* Label *//
         private void recipientLabel_Click(object sender, EventArgs e)
@@ -347,9 +396,40 @@ namespace WindowsFormsApp1
         {
 
         }
+        //Space
+        private void SMTPTitleLabel_Click(object sender, EventArgs e)
+        {
 
-        //* Misc. *//
+        }
+        private void MailLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void MailPasswordLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void PortLabel_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        private void SMTPLabel_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        private void SSLLabel_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        //* Numeric *//
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //* Checked *//
+        private void SSLCheckBox_CheckedChanged_1(object sender, EventArgs e)
         {
 
         }

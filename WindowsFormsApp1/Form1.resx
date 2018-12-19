@@ -121,164 +121,17 @@
   <data name="tabLogin.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="SSLLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="SSLLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 90</value>
-  </data>
-  <data name="SSLLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="SSLLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="SSLLabel.Text" xml:space="preserve">
-    <value>SSL:</value>
-  </data>
-  <data name="&gt;&gt;SSLLabel.Name" xml:space="preserve">
-    <value>SSLLabel</value>
-  </data>
-  <data name="&gt;&gt;SSLLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SSLLabel.Parent" xml:space="preserve">
-    <value>tabLogin</value>
-  </data>
-  <data name="&gt;&gt;SSLLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="SSLCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="SSLCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 90</value>
-  </data>
-  <data name="SSLCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 14</value>
-  </data>
-  <data name="SSLCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;SSLCheckBox.Name" xml:space="preserve">
-    <value>SSLCheckBox</value>
-  </data>
-  <data name="&gt;&gt;SSLCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SSLCheckBox.Parent" xml:space="preserve">
-    <value>tabLogin</value>
-  </data>
-  <data name="&gt;&gt;SSLCheckBox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="SMTPInputBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 61</value>
-  </data>
-  <data name="SMTPInputBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>448, 20</value>
-  </data>
-  <data name="SMTPInputBox.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;SMTPInputBox.Name" xml:space="preserve">
-    <value>SMTPInputBox</value>
-  </data>
-  <data name="&gt;&gt;SMTPInputBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SMTPInputBox.Parent" xml:space="preserve">
-    <value>tabLogin</value>
-  </data>
-  <data name="&gt;&gt;SMTPInputBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="SMTPLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="SMTPLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 64</value>
-  </data>
-  <data name="SMTPLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 13</value>
-  </data>
-  <data name="SMTPLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="SMTPLabel.Text" xml:space="preserve">
-    <value>SMTP:</value>
-  </data>
-  <data name="&gt;&gt;SMTPLabel.Name" xml:space="preserve">
-    <value>SMTPLabel</value>
-  </data>
-  <data name="&gt;&gt;SMTPLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SMTPLabel.Parent" xml:space="preserve">
-    <value>tabLogin</value>
-  </data>
-  <data name="&gt;&gt;SMTPLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PortInputBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 61</value>
-  </data>
-  <data name="PortInputBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="PortInputBox.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;PortInputBox.Name" xml:space="preserve">
-    <value>PortInputBox</value>
-  </data>
-  <data name="&gt;&gt;PortInputBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PortInputBox.Parent" xml:space="preserve">
-    <value>tabLogin</value>
-  </data>
-  <data name="&gt;&gt;PortInputBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="PortLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="PortLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 64</value>
-  </data>
-  <data name="PortLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
-  </data>
-  <data name="PortLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="PortLabel.Text" xml:space="preserve">
-    <value>Port:</value>
-  </data>
-  <data name="&gt;&gt;PortLabel.Name" xml:space="preserve">
-    <value>PortLabel</value>
-  </data>
-  <data name="&gt;&gt;PortLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PortLabel.Parent" xml:space="preserve">
-    <value>tabLogin</value>
-  </data>
-  <data name="&gt;&gt;PortLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="logInButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="logInButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
   </data>
   <data name="logInButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="logInButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -295,10 +148,10 @@
     <value>tabLogin</value>
   </data>
   <data name="&gt;&gt;logInButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>0</value>
   </data>
   <data name="passInputBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 35</value>
+    <value>87, 34</value>
   </data>
   <data name="passInputBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value>*</value>
@@ -319,10 +172,10 @@
     <value>tabLogin</value>
   </data>
   <data name="&gt;&gt;passInputBox.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>1</value>
   </data>
   <data name="userInputBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 9</value>
+    <value>87, 8</value>
   </data>
   <data name="userInputBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>627, 20</value>
@@ -340,7 +193,7 @@
     <value>tabLogin</value>
   </data>
   <data name="&gt;&gt;userInputBox.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>2</value>
   </data>
   <data name="tabLogin.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -374,6 +227,753 @@
   </metadata>
   <data name="tabInbox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;accountNameLabel.Name" xml:space="preserve">
+    <value>accountNameLabel</value>
+  </data>
+  <data name="&gt;&gt;accountNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountNameLabel.Parent" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;accountNameLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;messageLabel.Name" xml:space="preserve">
+    <value>messageLabel</value>
+  </data>
+  <data name="&gt;&gt;messageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageLabel.Parent" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;messageLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MessageTextbox.Name" xml:space="preserve">
+    <value>MessageTextbox</value>
+  </data>
+  <data name="&gt;&gt;MessageTextbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MessageTextbox.Parent" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;MessageTextbox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;InboxLabel.Name" xml:space="preserve">
+    <value>InboxLabel</value>
+  </data>
+  <data name="&gt;&gt;InboxLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InboxLabel.Parent" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;InboxLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;InboxList.Name" xml:space="preserve">
+    <value>InboxList</value>
+  </data>
+  <data name="&gt;&gt;InboxList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InboxList.Parent" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;InboxList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;deleteMessageButton.Name" xml:space="preserve">
+    <value>deleteMessageButton</value>
+  </data>
+  <data name="&gt;&gt;deleteMessageButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteMessageButton.Parent" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;deleteMessageButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;logOutButton.Name" xml:space="preserve">
+    <value>logOutButton</value>
+  </data>
+  <data name="&gt;&gt;logOutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logOutButton.Parent" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;logOutButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabInbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabInbox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabInbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 679</value>
+  </data>
+  <data name="tabInbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabInbox.Text" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="&gt;&gt;tabInbox.Name" xml:space="preserve">
+    <value>tabInbox</value>
+  </data>
+  <data name="&gt;&gt;tabInbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabInbox.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabInbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="tabSend.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="mailPassInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 7</value>
+  </data>
+  <data name="mailPassInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 20</value>
+  </data>
+  <data name="mailPassInput.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;mailPassInput.Name" xml:space="preserve">
+    <value>mailPassInput</value>
+  </data>
+  <data name="&gt;&gt;mailPassInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mailPassInput.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;mailPassInput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MailPasswordLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MailPasswordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 10</value>
+  </data>
+  <data name="MailPasswordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="MailPasswordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="MailPasswordLabel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;MailPasswordLabel.Name" xml:space="preserve">
+    <value>MailPasswordLabel</value>
+  </data>
+  <data name="&gt;&gt;MailPasswordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MailPasswordLabel.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;MailPasswordLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mailInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 7</value>
+  </data>
+  <data name="mailInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 20</value>
+  </data>
+  <data name="mailInput.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;mailInput.Name" xml:space="preserve">
+    <value>mailInput</value>
+  </data>
+  <data name="&gt;&gt;mailInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mailInput.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;mailInput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="MailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="MailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="MailLabel.Text" xml:space="preserve">
+    <value>Mail:</value>
+  </data>
+  <data name="&gt;&gt;MailLabel.Name" xml:space="preserve">
+    <value>MailLabel</value>
+  </data>
+  <data name="&gt;&gt;MailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MailLabel.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;MailLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="portInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 31</value>
+  </data>
+  <data name="portInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="portInput.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;portInput.Name" xml:space="preserve">
+    <value>portInput</value>
+  </data>
+  <data name="&gt;&gt;portInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portInput.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;portInput.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PortLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PortLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PortLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="PortLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="PortLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="PortLabel.Text" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="&gt;&gt;PortLabel.Name" xml:space="preserve">
+    <value>PortLabel</value>
+  </data>
+  <data name="&gt;&gt;PortLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PortLabel.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;PortLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SMTPLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SMTPLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SMTPLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 34</value>
+  </data>
+  <data name="SMTPLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="SMTPLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="SMTPLabel.Text" xml:space="preserve">
+    <value>SMTP:</value>
+  </data>
+  <data name="&gt;&gt;SMTPLabel.Name" xml:space="preserve">
+    <value>SMTPLabel</value>
+  </data>
+  <data name="&gt;&gt;SMTPLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SMTPLabel.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;SMTPLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SMTPInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 31</value>
+  </data>
+  <data name="SMTPInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 20</value>
+  </data>
+  <data name="SMTPInput.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;SMTPInput.Name" xml:space="preserve">
+    <value>SMTPInput</value>
+  </data>
+  <data name="&gt;&gt;SMTPInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SMTPInput.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;SMTPInput.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SSLCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SSLCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SSLCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 34</value>
+  </data>
+  <data name="SSLCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="SSLCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;SSLCheckBox.Name" xml:space="preserve">
+    <value>SSLCheckBox</value>
+  </data>
+  <data name="&gt;&gt;SSLCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SSLCheckBox.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;SSLCheckBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SSLLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SSLLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SSLLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 34</value>
+  </data>
+  <data name="SSLLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="SSLLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="SSLLabel.Text" xml:space="preserve">
+    <value>SSL:</value>
+  </data>
+  <data name="&gt;&gt;SSLLabel.Name" xml:space="preserve">
+    <value>SSLLabel</value>
+  </data>
+  <data name="&gt;&gt;SSLLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SSLLabel.Parent" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;SSLLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SMTPpanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 585</value>
+  </data>
+  <data name="SMTPpanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>711, 62</value>
+  </data>
+  <data name="SMTPpanel.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;SMTPpanel.Name" xml:space="preserve">
+    <value>SMTPpanel</value>
+  </data>
+  <data name="&gt;&gt;SMTPpanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SMTPpanel.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;SMTPpanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 66</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SMTPTitleLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SMTPTitleLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SMTPTitleLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 569</value>
+  </data>
+  <data name="SMTPTitleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="SMTPTitleLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="SMTPTitleLabel.Text" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="&gt;&gt;SMTPTitleLabel.Name" xml:space="preserve">
+    <value>SMTPTitleLabel</value>
+  </data>
+  <data name="&gt;&gt;SMTPTitleLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SMTPTitleLabel.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;SMTPTitleLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sendMailButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sendMailButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 653</value>
+  </data>
+  <data name="sendMailButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="sendMailButton.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="sendMailButton.Text" xml:space="preserve">
+    <value>Send Mail</value>
+  </data>
+  <data name="&gt;&gt;sendMailButton.Name" xml:space="preserve">
+    <value>sendMailButton</value>
+  </data>
+  <data name="&gt;&gt;sendMailButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendMailButton.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;sendMailButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="timeToLiveLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="timeToLiveLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="timeToLiveLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 68</value>
+  </data>
+  <data name="timeToLiveLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="timeToLiveLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="timeToLiveLabel.Text" xml:space="preserve">
+    <value>TTL (seconds):</value>
+  </data>
+  <data name="&gt;&gt;timeToLiveLabel.Name" xml:space="preserve">
+    <value>timeToLiveLabel</value>
+  </data>
+  <data name="&gt;&gt;timeToLiveLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timeToLiveLabel.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;timeToLiveLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="titleLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="titleLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="titleLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 67</value>
+  </data>
+  <data name="titleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="titleLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="titleLabel.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.Name" xml:space="preserve">
+    <value>titleLabel</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="carbonCopyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carbonCopyLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carbonCopyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 37</value>
+  </data>
+  <data name="carbonCopyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="carbonCopyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="carbonCopyLabel.Text" xml:space="preserve">
+    <value>CC:</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyLabel.Name" xml:space="preserve">
+    <value>carbonCopyLabel</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyLabel.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="recipientLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="recipientLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="recipientLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="recipientLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="recipientLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="recipientLabel.Text" xml:space="preserve">
+    <value>Recipient:</value>
+  </data>
+  <data name="&gt;&gt;recipientLabel.Name" xml:space="preserve">
+    <value>recipientLabel</value>
+  </data>
+  <data name="&gt;&gt;recipientLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recipientLabel.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;recipientLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="messageInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 92</value>
+  </data>
+  <data name="messageInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 445</value>
+  </data>
+  <data name="messageInput.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="messageInput.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;messageInput.Name" xml:space="preserve">
+    <value>messageInput</value>
+  </data>
+  <data name="&gt;&gt;messageInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageInput.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;messageInput.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="sendMessageButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sendMessageButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 543</value>
+  </data>
+  <data name="sendMessageButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="sendMessageButton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="sendMessageButton.Text" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="&gt;&gt;sendMessageButton.Name" xml:space="preserve">
+    <value>sendMessageButton</value>
+  </data>
+  <data name="&gt;&gt;sendMessageButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendMessageButton.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;sendMessageButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="titleInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="titleInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>501, 20</value>
+  </data>
+  <data name="titleInput.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;titleInput.Name" xml:space="preserve">
+    <value>titleInput</value>
+  </data>
+  <data name="&gt;&gt;titleInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;titleInput.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;titleInput.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="carbonCopyInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 34</value>
+  </data>
+  <data name="carbonCopyInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 20</value>
+  </data>
+  <data name="carbonCopyInput.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyInput.Name" xml:space="preserve">
+    <value>carbonCopyInput</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyInput.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;carbonCopyInput.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="recipientInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 5</value>
+  </data>
+  <data name="recipientInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 20</value>
+  </data>
+  <data name="recipientInput.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;recipientInput.Name" xml:space="preserve">
+    <value>recipientInput</value>
+  </data>
+  <data name="&gt;&gt;recipientInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recipientInput.Parent" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;recipientInput.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tabSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 679</value>
+  </data>
+  <data name="tabSend.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabSend.Text" xml:space="preserve">
+    <value>Send new</value>
+  </data>
+  <data name="&gt;&gt;tabSend.Name" xml:space="preserve">
+    <value>tabSend</value>
+  </data>
+  <data name="&gt;&gt;tabSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSend.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabSend.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 705</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="accountNameLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -563,336 +1163,6 @@
   </data>
   <data name="&gt;&gt;logOutButton.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="tabInbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tabInbox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabInbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>720, 679</value>
-  </data>
-  <data name="tabInbox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabInbox.Text" xml:space="preserve">
-    <value>Inbox</value>
-  </data>
-  <data name="&gt;&gt;tabInbox.Name" xml:space="preserve">
-    <value>tabInbox</value>
-  </data>
-  <data name="&gt;&gt;tabInbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabInbox.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabInbox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="tabSend.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>656, 66</value>
-  </data>
-  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
-    <value>numericUpDown1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="timeToLiveLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="timeToLiveLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="timeToLiveLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>571, 68</value>
-  </data>
-  <data name="timeToLiveLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 13</value>
-  </data>
-  <data name="timeToLiveLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="timeToLiveLabel.Text" xml:space="preserve">
-    <value>TTL (seconds):</value>
-  </data>
-  <data name="&gt;&gt;timeToLiveLabel.Name" xml:space="preserve">
-    <value>timeToLiveLabel</value>
-  </data>
-  <data name="&gt;&gt;timeToLiveLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timeToLiveLabel.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;timeToLiveLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="titleLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="titleLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="titleLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 67</value>
-  </data>
-  <data name="titleLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="titleLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="titleLabel.Text" xml:space="preserve">
-    <value>Title:</value>
-  </data>
-  <data name="&gt;&gt;titleLabel.Name" xml:space="preserve">
-    <value>titleLabel</value>
-  </data>
-  <data name="&gt;&gt;titleLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;titleLabel.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;titleLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="carbonCopyLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carbonCopyLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carbonCopyLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 37</value>
-  </data>
-  <data name="carbonCopyLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 13</value>
-  </data>
-  <data name="carbonCopyLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="carbonCopyLabel.Text" xml:space="preserve">
-    <value>CC:</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyLabel.Name" xml:space="preserve">
-    <value>carbonCopyLabel</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyLabel.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="recipientLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="recipientLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="recipientLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 8</value>
-  </data>
-  <data name="recipientLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 13</value>
-  </data>
-  <data name="recipientLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="recipientLabel.Text" xml:space="preserve">
-    <value>Recipient:</value>
-  </data>
-  <data name="&gt;&gt;recipientLabel.Name" xml:space="preserve">
-    <value>recipientLabel</value>
-  </data>
-  <data name="&gt;&gt;recipientLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;recipientLabel.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;recipientLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="messageInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 92</value>
-  </data>
-  <data name="messageInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>714, 555</value>
-  </data>
-  <data name="messageInput.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="messageInput.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;messageInput.Name" xml:space="preserve">
-    <value>messageInput</value>
-  </data>
-  <data name="&gt;&gt;messageInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;messageInput.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;messageInput.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="sendMessageButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sendMessageButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>589, 653</value>
-  </data>
-  <data name="sendMessageButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 23</value>
-  </data>
-  <data name="sendMessageButton.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="sendMessageButton.Text" xml:space="preserve">
-    <value>Send Message</value>
-  </data>
-  <data name="&gt;&gt;sendMessageButton.Name" xml:space="preserve">
-    <value>sendMessageButton</value>
-  </data>
-  <data name="&gt;&gt;sendMessageButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sendMessageButton.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;sendMessageButton.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="titleInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 64</value>
-  </data>
-  <data name="titleInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>501, 20</value>
-  </data>
-  <data name="titleInput.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;titleInput.Name" xml:space="preserve">
-    <value>titleInput</value>
-  </data>
-  <data name="&gt;&gt;titleInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;titleInput.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;titleInput.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="carbonCopyInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>695, 34</value>
-  </data>
-  <data name="carbonCopyInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 20</value>
-  </data>
-  <data name="carbonCopyInput.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyInput.Name" xml:space="preserve">
-    <value>carbonCopyInput</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyInput.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;carbonCopyInput.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="recipientInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 5</value>
-  </data>
-  <data name="recipientInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>653, 20</value>
-  </data>
-  <data name="recipientInput.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;recipientInput.Name" xml:space="preserve">
-    <value>recipientInput</value>
-  </data>
-  <data name="&gt;&gt;recipientInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;recipientInput.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;recipientInput.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="tabSend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tabSend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>720, 679</value>
-  </data>
-  <data name="tabSend.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tabSend.Text" xml:space="preserve">
-    <value>Send new</value>
-  </data>
-  <data name="&gt;&gt;tabSend.Name" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;tabSend.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabSend.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabSend.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>728, 705</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
